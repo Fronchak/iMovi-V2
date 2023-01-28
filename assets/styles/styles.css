@@ -45,6 +45,19 @@ body {
   background-color: var(--fourth-color);
 }
 
+.btn-default {
+  border-radius: 0;
+  color: var(--primary-color);
+  background-color: #222;
+  font-size: 1.2em;
+  padding: 7px 15px;
+  transition: 0.8s;
+}
+
+.btn-default:hover {
+  background-color: #000;
+}
+
 /* NAVBAR */
 
 nav.navbar {
@@ -91,3 +104,41 @@ nav.navbar {
   }
 }
 
+/* BANNERS */
+
+#indicators-container button {
+  background-color: var(--secondary-color);
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: var(--secondary-color);
+  font-size: 3em;
+  opacity: 1;
+}
+
+.carousel-caption {
+  margin-bottom: 15%;
+}
+
+.carousel-caption h5 {
+  font-size: 3em;
+  text-shadow: #000 2px 2px;
+}
+
+
+@media (min-width: 768px) {
+  #banners-container .carousel-item img {
+
+    max-height: 600px;
+  }
+
+
+  .carousel-caption h5 {
+    font-size: 4em;
+  }
+
+  #banners-container .btn-default {
+    padding: 10px 20px;
+  }
+}
