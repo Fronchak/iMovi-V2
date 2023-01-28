@@ -56,6 +56,7 @@ body {
 
 .btn-default:hover {
   background-color: #000;
+  color: var(--primary-color);
 }
 
 /* NAVBAR */
@@ -106,6 +107,10 @@ nav.navbar {
 
 /* BANNERS */
 
+#banners-container {
+  margin-top: 150px;
+}
+
 #indicators-container button {
   background-color: var(--secondary-color);
 }
@@ -140,5 +145,29 @@ nav.navbar {
 
   #banners-container .btn-default {
     padding: 10px 20px;
+  }
+}
+
+/* MINI BANNERS */
+
+.mini-banner {
+  border: 1px solid #ccc;
+  padding: 2em 2.5em;
+}
+
+.mini-banner i {
+  font-size: 5em;
+  margin-bottom: 2em;
+}
+
+.mini-banner p {
+  color: var(--thirth-color);
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  .mini-banner h3 {
+    height: 70px;
   }
 }
