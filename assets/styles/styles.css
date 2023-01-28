@@ -59,6 +59,23 @@ body {
   color: var(--primary-color);
 }
 
+.section {
+  margin-top: 4em;
+}
+
+.title-section {
+  color: var(--secondary-color);
+  font-size: 2.5em;
+}
+
+.title-section::before {
+  content: '';
+  display: block;
+  width: 100px;
+  border-top: 5px solid var(--thirth-color);
+  margin-bottom: 0.5em;
+}
+
 /* NAVBAR */
 
 nav.navbar {
@@ -169,5 +186,30 @@ nav.navbar {
 @media (min-width: 768px) {
   .mini-banner h3 {
     height: 70px;
+  }
+}
+
+/* DESTAQUES SECTION */
+
+#destaques-section p {
+  font-size: 1.2em;
+}
+
+@media(min-width: 576px) {
+  #images-container img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media(min-width: 768px) {
+  #images-container img {
+    height: 500px;
+  }
+}
+
+@media(min-width: 992px) {
+  #images-container img {
+    height: 600px;
   }
 }
