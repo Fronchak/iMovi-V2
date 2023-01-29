@@ -241,3 +241,106 @@ nav.navbar {
     font-size: 3em;
   }
 }
+
+/* FOOTER */
+
+/* FIRST SECTION */
+
+#footer-first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-first-section h2 {
+  font-size: 2em;
+}
+
+#footer-first-section i {
+  font-size: 1.5em;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+
+#footer-first-section i:hover {
+  color: var(--thirth-color);
+}
+
+@media (min-width: 576px) {
+  #footer-first-section i {
+    font-size: 2em;
+    margin-left: 0.8em;
+  }
+
+  #footer-first-section h2 {
+    font-size: 2.5em;
+  }
+}
+
+/* SECOND SECTION */
+
+.footer-card h3 {
+  margin-bottom: 1.5em;
+}
+
+.footer-card p {
+  color: var(--thirth-color);
+}
+
+.footer-card .form-control {
+  border-radius: 0;
+}
+
+.footer-card .form-control:focus {
+  box-shadow: none;
+  border-color: #fff;
+}
+
+.footer-card a {
+  color: var(--thirth-color);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.6em;
+  transition: 0.5s;
+}
+
+.footer-card a:hover {
+  color: var(--primary-color);
+}
+
+#footer-second-section {
+  border-bottom: 1px solid var(--thirth-color);
+}
+
+@media (min-width: 768px) {
+  #second-footer-card-container {
+    border-right: 1px solid var(--thirth-color);
+    border-left: 1px solid var(--thirth-color);
+  }
+}
+
+/* THIRD SECTION */
+
+#footer-thirth-section {
+  display: flex;
+  justify-content: space-between;
+  color: var(--thirth-color);
+  font-size: 0.8em;
+}
+
+#footer-thirth-section i {
+  color: red;
+}
+
+@media (min-width: 576px) {
+  #footer-thirth-section {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-thirth-section {
+    font-size: 1.2em;
+  }
+}
