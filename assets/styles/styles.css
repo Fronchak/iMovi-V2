@@ -213,3 +213,31 @@ nav.navbar {
     height: 600px;
   }
 }
+
+/* DETAILS SECTION */
+
+#details-card {
+  background-color: var(--fourth-color);
+}
+
+#details-number-container h5 {
+  font-size: 2em;
+  color: var(--secondary-color);
+}
+
+#details-number-container p {
+  color: var(--thirth-color);
+  font-size: 0.8em;
+}
+
+@media(min-width: 576px) {
+  #details-number-container h5 {
+    font-size: 2.5em;
+  }
+}
+
+@media(min-width: 768px) {
+  #details-number-container h5 {
+    font-size: 3em;
+  }
+}
